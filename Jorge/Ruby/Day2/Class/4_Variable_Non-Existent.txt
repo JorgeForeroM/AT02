@@ -1,0 +1,8 @@
+I will now count my fruits
+Bananas: 30
+Apples: 97
+now I will coun the potato:
+7
+Is it true that 3 + 2 < 5 - 7?
+false
+4_Variable_Non-Existent.rb:16:in `<main>': undefined local variable or method `calculations2' for main:Object (NameError)

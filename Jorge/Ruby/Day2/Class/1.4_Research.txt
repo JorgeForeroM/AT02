@@ -1,0 +1,22 @@
+Research
+
+a) the way to add comments on ruby (inline - multiline)
+
+	To make an inline comment on ruby we must use the character "#"
+	and to make a multiline comments on ruby, we use the next format with its 
+	characters:
+		
+		=begin
+		comment line
+		comment line
+		=end
+	
+b) when you should use each type
+
+inline comments only when we want to specify a variable or
+a detail of little modification in our code, just a line.
+
+however, multiline comments could be when specified for details
+full functionality of the class in question
+
+

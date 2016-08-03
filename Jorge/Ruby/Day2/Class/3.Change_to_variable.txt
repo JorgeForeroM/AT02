@@ -1,0 +1,9 @@
+I will now count my fruits
+Bananas: 30
+Apples: 97
+now I will coun the potato:
+7
+Is it true that 3 + 2 < 5 - 7?
+false
+What is 3 + 2? It is 5
+What is 5 - 7? It is -2
