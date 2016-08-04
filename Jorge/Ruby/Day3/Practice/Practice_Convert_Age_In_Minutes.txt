@@ -1,0 +1,3 @@
+Give me name: Jorge
+Give me your age: 24
+Your age in minutes is: 12614400

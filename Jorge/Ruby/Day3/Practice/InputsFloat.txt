@@ -1,0 +1,15 @@
+	Execution 1
+Give me a number: 5
+The floating number is : 5.0
+
+	Execution 2
+Give me a number: n1
+The floating number is : 0.0
+
+	Execution 3
+Give me a number: 67kl
+The floating number is : 67.0
+
+	Execution 4
+Give me a number: g67njg
+The floating number is : 0.0

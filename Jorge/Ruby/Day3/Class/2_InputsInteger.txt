@@ -1,0 +1,29 @@
+
+	-- Execution 1 --
+Give me a number: 4
+A bigger number is 400
+
+	-- Execution 2 --
+Give me a number: j5
+A bigger number is 0
+
+	-- Execution 3--
+Give me a number: 5t
+A bigger number is 500
+
+	-- Execution 4 --
+Give me a number: 5\n
+A bigger number is 500
+
+	-- execution 5 --
+Give me a number: j5ghgf
+A bigger number is 0
+
+	-- execution 6 -- whitout .to_i
+Give me a number: a5hj
+A bigger number is a5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hja5hj
+
+	-- Execution 7 using "+"
+Give me a number: 4t
+2_InputsInteger.rb:3:in `+': no implicit conversion of Fixnum into String (TypeError)
+        from 2_InputsInteger.rb:3:in `<main>'
