@@ -1,0 +1,15 @@
+  Customer 1 details
+Customer id 1
+Customer name Ana
+Customer address Sopocachi, LP
+  Customer 2 details
+Customer id 2
+Customer name Juan
+Customer address Melchor Perez, CBBA
+  Only Display name of customer 1
+Customer name Ana
+  Only Display name of customer 2
+Customer name Juan
+  Change name of customer 1
+  New name of customer 1
+Customer name Pepito

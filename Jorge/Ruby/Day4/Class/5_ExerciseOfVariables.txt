@@ -1,0 +1,5 @@
+  Father money initial 500
+  Child one is taking: 100
+  Child Two is taking: 200
+  Child Three is taking: 50
+  Father money final: 150

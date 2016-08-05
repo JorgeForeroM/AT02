@@ -1,0 +1,9 @@
+Inside module
+6
+Inside class
+6
+Inside the method
+75
+Inside toplevel
+75
+true
