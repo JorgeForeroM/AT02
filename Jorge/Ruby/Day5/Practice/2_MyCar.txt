@@ -1,0 +1,6 @@
+Year is : 2008
+Color is: Negro
+Model is : Gallardo
+You acelerate to 50 mph
+You brake to 10 mph
+You shut the car Off
