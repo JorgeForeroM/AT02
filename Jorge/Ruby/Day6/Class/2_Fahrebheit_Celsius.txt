@@ -1,0 +1,3 @@
+Insert the value to converte of celsius to Fahrenheit:  47
+116
+46

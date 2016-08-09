@@ -1,0 +1,13 @@
+Insert the name: Jorge
+Insert the price: 244
+Desea ingresar destino? Y or N
+Y
+Insert the destination: TDD
+Price in dollars: 34.86
+
+--- Execution 2
+Insert the name: Brian
+Insert the price: 455
+Desea ingresar destino? Y or N
+N
+Price in dollars: 65.0
