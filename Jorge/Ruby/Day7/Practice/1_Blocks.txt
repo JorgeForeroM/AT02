@@ -1,0 +1,6 @@
+The perimeter is: 9
+The figure obtanined is: triangle with 3 sides
+The perimeter is: 12
+The figure obtanined is: Cuadrado with 4 sides
+The perimeter is: 15
+The figure obtanined is: Pentagon with 5 sides

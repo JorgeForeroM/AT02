@@ -1,0 +1,6 @@
+value_1 inside the block: 0
+value_1 inside the block: 1
+value_1 inside the block: 2
+value_1 inside the block: 3
+value_1 inside the block: 4
+value_1 outside the block: 4
