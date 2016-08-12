@@ -1,10 +1,10 @@
 Insert the number of elements: 4
-Give me the element 1: t
-Give me the element 2: 5
-Give me the element 3: t
-Give me the element 4: 7
-"Numbers array: [5, 7]"
-"String array: [\"t\", \"t\"]"
-"Mixed array: [\"t\", 5, \"t\", 7]"
-"Join Arrays: [7, \"t\"]"
-"array with both elements extracted: [5, \"t\"]"
+Give me the element 1: 4
+Give me the element 2: h
+hGive me the element 3: 5
+Give me the element 4: j
+jNumbers array: [4, 5]
+String array: ["h", "j"]
+Mixed array: [4, "h", 5, "j"]
+Join Arrays: [5, "h"]
+array with both elements extracted: [4, "j"]

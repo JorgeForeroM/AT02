@@ -36,20 +36,19 @@ class ArrayClass
 		array = []
 		array.push(array1.shift)
 		array.push(array2.pop)
-		p "Join Arrays: #{array1 + array2}"
+		puts "Join Arrays: #{array1 + array2}"
 		array
 	end
 
 	def printArray array
-		p "array with both elements extracted: #{array}"
+		puts "array with both elements extracted: #{array}"
 	end
 end
 
 array = ArrayClass.new
 arrayNumbers, arrayAlphabetical, arrayMixed = array.genereThreeArray
-p "Numbers array: #{arrayNumbers}"
-p "String array: #{arrayAlphabetical}"
-p "Mixed array: #{arrayMixed}"
+puts "Numbers array: #{arrayNumbers}"
+puts "String array: #{arrayAlphabetical}"
+puts "Mixed array: #{arrayMixed}"
 
-#array.printFirstLastAndCommonElements(arrayNumbers,arrayMixed)
 array.printArray(array.printJoinArraysAndReturnFirstAndLast(arrayNumbers, arrayAlphabetical))
