@@ -1,0 +1,7 @@
+"Hydrogen"
+3
+["Hydrogen", "Helium", "Lithium"]
+["H", "He", "Li"]
+{"H"=>"Hydrogen", "He"=>"Helium", "Li"=>"Lithium"}
+{"pancakes"=>"syrup", "Pizza"=>"Pepper", "Cereal"=>"Sugar"}
+{"bob"=>10.9, "larry"=>7.5}
