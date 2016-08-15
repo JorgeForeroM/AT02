@@ -1,0 +1,12 @@
+Insert the number of values:2
+Insert the key: jorge
+Insert the value: 23
+Insert the key: maria
+Insert the value: 25
+Keys:
+"jorge"
+"maria"
+Values:
+"23"
+"25"
+{"jorge"=>"23", "maria"=>"25"}

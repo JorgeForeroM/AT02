@@ -1,0 +1,4 @@
+Insert your name: jorge
+Insert your age: 23
+The age in ours is: 201480
+jorge you are adult
