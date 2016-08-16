@@ -1,0 +1,10 @@
+Insert amount: 2
+Insert the Name 1: Jorge
+Insert the Id 1: 23
+Insert the Name 2: jaiver
+Insert the Id 2: 43
+Position: 0 Name: JORGE
+Position: 1 Name: JAIVER
+The array in Uper case is: ["JORGE", "JAIVER"]
+Good bye Jorge
+Good bye jaiver

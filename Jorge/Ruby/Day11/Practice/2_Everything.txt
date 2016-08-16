@@ -1,0 +1,12 @@
+Insert the amount: 2
+Insert the ID: 1: 23
+Insert the Username 1: Jorge
+Insert the Username 1: jorge
+Insert the ID: 2: 24
+Insert the Username 2: jaiver
+Insert a number to find de Ids:2
+The array of ids is:{23=>"jorge", 24=>"jaiver"}
+Insert a character to find de usernames:j
+The array of usernames is:{23=>"jorge", 24=>"jaiver"}
+jorge belong Group 1
+jaiver belong Group 1
