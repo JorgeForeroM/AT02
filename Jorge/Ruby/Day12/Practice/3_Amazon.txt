@@ -1,0 +1,11 @@
+{"Samsung S6"=>480, "Samsung S7"=>750, "Iphone 7"=>950, "Iphone 7s"=>1100}
+How many items do you like to buy?: 2
+What item do you want?: Iphone 7
+Insert the amount?: 2
+What item do you want?: Iphone 7s
+Insert the amount?: 1
+Item    Quantity Precio
+Iphone 7  2   1900
+Iphone 7s  1   1100
+The actual inventary
+{"Samsung S6 Edge"=>15, "Samsung S7"=>10, "Iphone 7"=>4, "Iphone 7s"=>8}

@@ -1,0 +1,3 @@
+Insert new user: Jorge
+Insert new welcome message: Hola
+Last user: Jorge
