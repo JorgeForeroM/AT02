@@ -1,5 +1,35 @@
-Were inserted 3 users
-The username inserted was jorge
-The username inserted was fds
-The username inserted was ds
-Good ByeGood ByeList of user doesn't perform any calculationGood ByeGood ByeList of user doesn't perform any calculation
+The amount of users to insert is: 4
+The username inserted was david with ID: 1
+The username inserted was roy with ID: 2
+The username inserted was maria with ID: 3
+The username inserted was fernando with ID: 4
+david do you want a perform a calculation YES/NO: 
+yes
+ a) From Milimeters to centimeters
+ b) From centimeters to meters
+ c) From meters to Kilometers
+ Option Select is: a
+456 milimeters represent 45 centimeters
+
+roy do you want a perform a calculation YES/NO: 
+yes
+ a) From Milimeters to centimeters
+ b) From centimeters to meters
+ c) From meters to Kilometers
+ Option Select is: b
+575 cms represent 5 meters
+
+maria do you want a perform a calculation YES/NO: 
+yes
+ a) From Milimeters to centimeters
+ b) From centimeters to meters
+ c) From meters to Kilometers
+ Option Select is: c
+5687 meters represent 5 Kilometers
+
+fernando do you want a perform a calculation YES/NO: 
+no
+Good Bye
+
+List of user doesn't perform any calculation
+["fernando"]
