@@ -25,6 +25,7 @@ Structure of a feature – give an example
 	– Name
 	– Size [Optional]
 	– Priority 
+	 Example: Name: Account Holder withdraws cash Priority:2
 
 Structure of a user story – give an example
 
@@ -32,7 +33,12 @@ Structure of a user story – give an example
 	Narrative:
 	• As a [role]
 	• I want [feature]
-	• So that [benefit]        
+	• So that [benefit]  
+
+	Example:
+	As an Account Holder
+        I want to withdraw cash from an ATM
+        So that I can get money when the bank is closed      
 
 Structure of a scenary -  give an example
 
@@ -40,6 +46,12 @@ Structure of a scenary -  give an example
 	• Given some initial context (the givens)
 	• When an event occurs
 	• then ensure some outcomes
+
+	Example:
+	Scenario 1: Account has sufficient funds
+	Given the account balance is $100
+	When the Account Holder requests $20
+	Then the ATM should dispense $20
 
 Differences between BDD and BDT
 
