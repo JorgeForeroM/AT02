@@ -1,0 +1,50 @@
+Research:
+
+	• When and why BDD was defined
+
+	A BDD is defined at the beginning of the project, as this methodology helps us to effectively direct our 
+	goals and try to avoid future incidents that harm the development of our project.
+
+	•	The most important aspects of BDD
+	With this methodology we get automate software testing, refactoring to also consider a simpler, 
+	clean and understandable code.
+
+	• Why is useful and when could be applied
+
+	Because it is a collaborative approach in which all team understand the language in certain common for the 
+	corresponding development project, and where the code is properly documented, which then will allow 
+	the team manage to have a good and simple feedback work advanced. With this methodology we can avoid 
+	redefine and / or re-evaluate the requirements.
+
+	• Which type of teams could implement BDD
+
+	The software development teams could take this methodology as a means of good practice, 
+	when coding, refactoring. And testing units.
+
+Structure of a feature – give an example
+	– Name
+	– Size [Optional]
+	– Priority 
+
+Structure of a user story – give an example
+
+	Title (one line describing the story)
+	Narrative:
+	• As a [role]
+	• I want [feature]
+	• So that [benefit]        
+
+Structure of a scenary -  give an example
+
+	Structure :
+	• Given some initial context (the givens)
+	• When an event occurs
+	• then ensure some outcomes
+
+Differences between BDD and BDT
+
+The BDT is a redesign of what the BDD but oriented realizer tests written in natural language, 
+too automate the testing process , the BDT is oriented to the use of testers, those of business and 
+anyone who wishes to participate in the testing and validation.  But instead the BDD is aimed at 
+developers to use this methodology for testing in the code unit form good at the end, also are customer oriented. 
+Whether there are not many differences and that is why you are confused.
