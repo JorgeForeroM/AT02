@@ -1,0 +1,41 @@
+#Copyright
+#       This is a example of feature
+#       @autor JorgeForero
+#       @version 1.0
+Feature: The first feature title
+        This is a example of feature
+
+  Scenario: Attempt withdrawal using stolen card # features/Feature.feature:10
+    Given I have $100 in my account              # features/step_definitions/stepFeature.rb:1
+    And my card is invalid                       # features/step_definitions/stepFeature.rb:5
+    When I request $50                           # features/step_definitions/stepFeature.rb:9
+    Then my card should not be returned          # features/step_definitions/stepFeature.rb:13
+    And I should be told to contact the bank     # features/step_definitions/stepFeature.rb:17
+
+1 scenario (1 skipped)
+5 steps (5 skipped)
+
+----------------------------------------------------------------------------------------------
+#Copyright
+#       This is a example of feature
+#       @autor JorgeForero
+#       @version 1.0
+Feature: The first feature title
+        This is a example of feature
+
+  Scenario: Attempt withdrawal using stolen card # features/Feature.feature:10
+    Given I have $100 in my account              # features/step_definitions/stepFeature.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/stepFeature.rb:2:in `/^I have \$(\d+) in my account$/'
+      features/Feature.feature:12:in `Given I have $100 in my account'
+    And my card is invalid                       # features/step_definitions/stepFeature.rb:5
+    When I request $50                           # features/step_definitions/stepFeature.rb:9
+    Then my card should not be returned          # features/step_definitions/stepFeature.rb:13
+    And I should be told to contact the bank     # features/step_definitions/stepFeature.rb:17
+
+1 scenario (1 pending)
+5 steps (4 skipped, 1 pending)
+0m0.158s
+-------------------------------------------------------------------------------------------------
+The different in both execution is in the first with dry run, only verify the features, but don't execute
+In the second we can see the time od execution 

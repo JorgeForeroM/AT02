@@ -1,0 +1,103 @@
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber (2.4.0)
+cucumber-core (1.5.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (4.0.0)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.12.1)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+--------------------------------
+
+C:\cucumber>cucumber --version
+2.4.0
+
+----------------------------------
+C:\cucumber>gem search -l json
+
+*** LOCAL GEMS ***
+
+json (1.8.1)
+multi_json (1.12.1)
+
+----------------------------------
+
+C:\cucumber>gem uninstall cucumber
+Remove executables:
+        cucumber
+
+in addition to the gem? [Yn]  y
+Removing cucumber
+Successfully uninstalled cucumber-2.4.0
+
+--------------------------------------
+C:\cucumber\features>ruby uninstallGem.rb
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "bigdecimal" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled builder-3.2.2
+Successfully uninstalled cucumber-core-1.5.0
+Successfully uninstalled cucumber-wire-0.0.1
+Removing htmldiff
+Removing ldiff
+Successfully uninstalled diff-lcs-1.2.5
+Successfully uninstalled gherkin-4.0.0
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "io-console" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "json" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled minitest-5.4.3
+Successfully uninstalled multi_json-1.12.1
+Successfully uninstalled multi_test-0.1.2
+Successfully uninstalled power_assert-0.2.2
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "psych" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rake" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rdoc" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled test-unit-3.0.8
+INFO:  Uninstalled all gems in
+
+----------------------------------------------
+C:\Ruby22-x64>gem install bundler
+Fetching: bundler-1.12.5.gem (100%)
+Successfully installed bundler-1.12.5
+Parsing documentation for bundler-1.12.5
+Installing ri documentation for bundler-1.12.5
+Done installing documentation for bundler after 14 seconds
+1 gem installed
+
+----------------------------------------------------
+C:\cucumber\features>bundle install
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Resolving dependencies...
+Installing builder 3.2.2
+Installing gherkin 4.0.0
+Installing cucumber-wire 0.0.1
+Installing diff-lcs 1.2.5
+Installing multi_json 1.12.1
+Installing multi_test 0.1.2
+Using bundler 1.12.5
+Installing cucumber-core 1.5.0
+Installing cucumber 2.4.0
+Bundle complete! 1 Gemfile dependency, 9 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
