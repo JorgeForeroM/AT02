@@ -1,0 +1,18 @@
+Feature: Account Testing
+
+  Scenario: Sing in or creae account        # features/Account.feature:3
+    Given I select Sign in                  # features/step_definitions/Step_Account.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/Step_Account.rb:2:in `/^I select (Sign in|Create and account)$/'
+      features/Account.feature:4:in `Given I select Sign in'
+    When I Write the username               # features/step_definitions/Step_Account.rb:5
+    And I write the password                # features/step_definitions/Step_Account.rb:9
+    Then The main page appear               # features/step_definitions/Step_Account.rb:13
+    Given I select Create and account       # features/step_definitions/Step_Account.rb:1
+    When I introduce all the required dates # features/step_definitions/Step_Account.rb:18
+    And I press save                        # features/step_definitions/Step_Account.rb:22
+    Then The account is created             # features/step_definitions/Step_Account.rb:26
+
+1 scenario (1 pending)
+8 steps (7 skipped, 1 pending)
+0m0.110s
