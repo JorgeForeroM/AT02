@@ -1,0 +1,36 @@
+Feature: Validation steps
+        Add validation steps for :
+         ZipCode (only digits)
+      Username (only lower case)
+      Country  (any character except digits)
+
+  Scenario: add values          # features/ZipCode.feature:7
+    Given I have a zipCode 3254 # features/step_definitions/Step_ZipCode.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/Step_ZipCode.rb:2:in `/^I have a zipCode (\d+)$/'
+      features/ZipCode.feature:8:in `Given I have a zipCode 3254'
+    And UserName jorgebrian     # features/step_definitions/Step_ZipCode.rb:5
+    And Country Bolivia         # features/step_definitions/Step_ZipCode.rb:9
+
+  Scenario: validation           # features/ZipCode.feature:12
+    Given I have a zipCode e3254 # features/ZipCode.feature:13
+    And UserName jorgebrian23    # features/ZipCode.feature:14
+    And Country Bolivia34        # features/ZipCode.feature:15
+
+2 scenarios (1 undefined, 1 pending)
+6 steps (2 skipped, 3 undefined, 1 pending)
+0m0.116s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I have a zipCode e(\d+)$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^UserName jorgebrian(\d+)$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^Country Bolivia(\d+)$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end

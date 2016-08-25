@@ -1,0 +1,30 @@
+Feature: Practice non capturing group
+Write a feature file that contains 2 scenarios, each one with steps that need a step definition with:
+1. Question mark modified for singular and plurar
+2. Multiple captures of data
+3. Noncapturing group
+
+E.G. 1 scenario with a sentence to eat # of apples (aple if it is one), another with the amount of money to pay and the type of payment(credit card, money,etc)and some final step that can be described with different words.
+
+  Scenario: Apples                    # features/Practice.feature:9
+    Given I want buy apples           # features/step_definitions/Step_Practice.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/Step_Practice.rb:2:in `/^I want buy apples$/'
+      features/Practice.feature:10:in `Given I want buy apples'
+    And I have 1 apple in my backpack # features/step_definitions/Step_Practice.rb:5
+    When I buy 5 apples for 20 Bs     # features/step_definitions/Step_Practice.rb:9
+    Then I have 3 apples in my pack   # features/step_definitions/Step_Practice.rb:5
+
+  Scenario: buy tickets in cinecenter    # features/Practice.feature:15
+    Given I have 100 Bs in cash          # features/step_definitions/Step_Practice.rb:14
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/Step_Practice.rb:15:in `/^I have (\d+) Bs in (CreditCard|cash)$/'
+      features/Practice.feature:16:in `Given I have 100 Bs in cash'
+    And I have 600 Bs in CreditCard      # features/step_definitions/Step_Practice.rb:14
+    When I buy 5 ticket to cinecenter    # features/step_definitions/Step_Practice.rb:18
+    Then I pay 1 ticket with cash        # features/step_definitions/Step_Practice.rb:22
+    And I pay 3 tickets using creditcard # features/step_definitions/Step_Practice.rb:22
+
+2 scenarios (2 pending)
+9 steps (7 skipped, 2 pending)
+0m0.195s

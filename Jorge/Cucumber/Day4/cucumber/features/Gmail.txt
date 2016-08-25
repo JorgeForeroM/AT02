@@ -1,0 +1,23 @@
+Feature: Gmail
+
+  Scenario: new gmail account                                 # features/Gmail.feature:3
+    Given I write in name Jorge                               # features/step_definitions/Step_Gmail.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/Step_Gmail.rb:2:in `/^I write in name (\w+)$/'
+      features/Gmail.feature:4:in `Given I write in name Jorge'
+    And in last name Forero                                   # features/step_definitions/Step_Gmail.rb:5
+    And in username jorgebrian                                # features/step_definitions/Step_Gmail.rb:9
+    And in password Jb&11542                                  # features/step_definitions/Step_Gmail.rb:13
+    And in password confirm Jb&11542                          # features/step_definitions/Step_Gmail.rb:13
+    And in month select January                               # features/step_definitions/Step_Gmail.rb:21
+    And in day selected 23                                    # features/step_definitions/Step_Gmail.rb:25
+    And in year select 1992                                   # features/step_definitions/Step_Gmail.rb:29
+    And in gender select Male                                 # features/step_definitions/Step_Gmail.rb:33
+    And in movile phone write 70268628                        # features/step_definitions/Step_Gmail.rb:37
+    And in current e-mail address write jorgeforero@gmail.com # features/step_definitions/Step_Gmail.rb:41
+    When I press save                                         # features/step_definitions/Step_Account.rb:22
+    Then The account is created                               # features/step_definitions/Step_Account.rb:26
+
+1 scenario (1 pending)
+13 steps (12 skipped, 1 pending)
+0m0.159s
