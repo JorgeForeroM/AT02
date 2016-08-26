@@ -1,0 +1,57 @@
+
+Feature: Daily Activities
+
+  Background: start the class # features/features_definitions/DailyActivities.feature:3
+    Given comes the trainer   # features/step_definitions/Step_DailyActivities.rb:1
+    When the door is close    # features/step_definitions/Step_DailyActivities.rb:5
+    Then start the class      # features/step_definitions/Step_DailyActivities.rb:9
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:15: warning: class variable access from toplevel
+
+  Scenario: Class SWF              # features/features_definitions/DailyActivities.feature:9
+    Given I have my daily report   # features/step_definitions/Step_DailyActivities.rb:14
+      | Class  | State   |
+      | SWF    | Pending |
+      | BDT    | Pending |
+      | PROG01 | Pending |
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:19: warning: class variable access from toplevel
+    When the PROG01 class began    # features/step_definitions/Step_DailyActivities.rb:18
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+    And I change to InProgress     # features/step_definitions/Step_DailyActivities.rb:22
+      Estado actual InProgress
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:33: warning: class variable access from toplevel
+    And the board should look like # features/step_definitions/Step_DailyActivities.rb:31
+      | Class  | State      |
+      | SWF    | Pending    |
+      | BDT    | Pending    |
+      | PROG01 | InProgress |
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:19: warning: class variable access from toplevel
+    When the PROG01 class finish   # features/step_definitions/Step_DailyActivities.rb:18
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+    Then I change to Done          # features/step_definitions/Step_DailyActivities.rb:22
+      Estado actual Done
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:33: warning: class variable access from toplevel
+    And the board should look like # features/step_definitions/Step_DailyActivities.rb:31
+      | Class  | State   |
+      | SWF    | Pending |
+      | BDT    | Pending |
+      | PROG01 | Done    |
+
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:19: warning: class variable access from toplevel
+  Scenario: class prog101           # features/features_definitions/DailyActivities.feature:32
+    When the SWF class began        # features/step_definitions/Step_DailyActivities.rb:18
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:26: warning: class variable access from toplevel
+    And I change to InProgress      # features/step_definitions/Step_DailyActivities.rb:22
+      Estado actual InProgress
+C:/cucumber/features/step_definitions/Step_DailyActivities.rb:33: warning: class variable access from toplevel
+    Then the board should look like # features/step_definitions/Step_DailyActivities.rb:31
+      | Class  | State      |
+      | SWF    | InProgress |
+      | BDT    | Pending    |
+      | PROG01 | Done       |
+
+2 scenarios (2 passed)
+16 steps (16 passed)
+0m0.378s
